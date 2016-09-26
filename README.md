@@ -8,12 +8,12 @@ $ git clone https://github.com/ncysatnaf/daily-proxy
 ## Usage
 #### Run Server
 ```bash
-$ node server.js
+$ node index.js -p 3001
 ```
 
 #### Send request
 ```js
-fetch('http://127.0.0.1:8000?https://www.artstation.com/search/users.json?q=m4').then(res => res.json()).then(data => console.log(data)
+fetch('http://127.0.0.1:3001?https://www.artstation.com/search/users.json?q=m4')
 ```
 
 ## license

@@ -2,7 +2,7 @@
 
 ## Install
 ```bash
-$ npm i daily-proxy
+$ git clone https://github.com/ncysatnaf/daily-proxy
 ```
 
 ## Usage
